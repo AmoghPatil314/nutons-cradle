@@ -2,9 +2,11 @@ class Ball {
     constructor(x, y) {
       var options = {
           'isStatic':false,
-          'restitution':0.3,
-          'friction':0.5,
-          'density':1.2
+          'restitution':1,
+          'friction':0,
+          'frictionAir':0.0,
+          'slop':1,
+          'inertia':Infinity
       }
       this.body = Bodies.circle(x, y, 60, options);
       this.radius = 60;
