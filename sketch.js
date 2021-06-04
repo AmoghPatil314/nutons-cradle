@@ -26,11 +26,11 @@ function setup() {
 	ball4 =new Ball(300,300,600);
 	ball5 =new Ball(100,300,600);
 
-	rope1=new Rope(ball1.body,{x:650, y:100});
-	rope2=new Rope(ball2.body,{x:530, y:100});
+	rope1=new Rope(ball1.body,{x:660, y:100});
+	rope2=new Rope(ball2.body,{x:540, y:100});
 	rope3=new Rope(ball3.body,{x:420, y:100});
 	rope4=new Rope(ball4.body,{x:300, y:100});
-	rope5=new Rope(ball5.body,{x:190, y:100});
+	rope5=new Rope(ball5.body,{x:180, y:100});
 
 	Engine.run(engine);
   
